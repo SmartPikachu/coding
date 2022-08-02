@@ -18,4 +18,7 @@ public class UserService {
         return userDao.insertUser(user);
     }
 
+    public String getUserName(String someId) {
+        return "TEST";
+    }
 }
